@@ -4,7 +4,7 @@ namespace UIKit
 {
     public static class UIFactory
     {
-        // Create a root Canvas and wrapper UIElement and optionally parent it under HUDManager's HUD canvas
+        // Create a root Canvas and wrapper UIElement and optionally parent it
         public static UIElement CreateRoot(string name = "UIRoot", Transform parent = null)
         {
             var go = new GameObject(name, typeof(RectTransform), typeof(Canvas), typeof(CanvasScaler), typeof(UnityEngine.UI.GraphicRaycaster));
